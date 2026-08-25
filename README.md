@@ -28,10 +28,47 @@ A coaching facilitation webapp built on the [ICA FlipIT framework](https://icaco
 
 ## Getting started
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or newer (includes `npm`)
+
+### Install
+
 ```bash
 npm install
+```
+
+### Run in development
+
+```bash
 npm run dev
 ```
+
+This starts the Vite dev server with hot module reloading. Open the printed URL (defaults to http://localhost:5173) in your browser.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+Type-checks the project and outputs an optimized bundle to `dist/`.
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+Serves the contents of `dist/` locally so you can verify the production build.
+
+### Lint
+
+```bash
+npm run lint
+```
+
+Runs [oxlint](https://oxc.rs/docs/guide/usage/linter) over the source.
 
 ## Tech stack
 
